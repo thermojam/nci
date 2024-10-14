@@ -6,7 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="3136dda6-c76a-44a2-8e9f-3d82c283ab70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carfax/Mercedes-Benz-GLS-450-12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carfax/Range-Rover-Westminster-20.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X5-xDrive40i-37/front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE-350-41/front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-12/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-12/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-12/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-12/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-12/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S500-22/front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Westminster-20/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Westminster-20/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Westminster-20/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Westminster-20/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Westminster-20/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-89/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-89/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-89/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-89/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-89/side.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/offer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/offer.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +92,8 @@
       <workItem from="1728160500649" duration="2573000" />
       <workItem from="1728191559562" duration="2812000" />
       <workItem from="1728216592731" duration="7790000" />
-      <workItem from="1728298900201" duration="2616000" />
+      <workItem from="1728298900201" duration="3236000" />
+      <workItem from="1728893677871" duration="6687000" />
     </task>
     <servers />
   </component>
