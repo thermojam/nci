@@ -388,7 +388,7 @@
                             </div>
                             <div class="catalog-btn">
                                 <button type="submit" class="card-btn" data-bs-toggle="modal"
-                                        data-bs-target="#modalMercedes-Benz-GLS-450-49">
+                                        data-bs-target="modalMercedes-Benz-GLS-450-49" data-url="/modalMercedes-Benz-GLS-450-49" onclick="openModal(this)">
                                     Подробнее
                                 </button>
                             </div>
@@ -414,7 +414,7 @@
                             </div>
                             <div class="catalog-btn">
                                 <button type="submit" class="card-btn" data-bs-toggle="modal"
-                                        data-bs-target="#modalRange-Rover-48">
+                                        data-bs-target="modalRange-Rover-48" data-url="/modalRange-Rover-48" onclick="openModal(this)">
                                     Подробнее
                                 </button>
                             </div>
@@ -423,6 +423,32 @@
                 </div>
 
                 <!--Карточка автомобиля #25-->
+                <div class="swiper-slide">
+                    <div class="product-card">
+
+                        <img src="images/cars/Mercedes-Benz-GLE400-Coupe-44/front.jpg" class="img-fluid"
+                             alt="Mercedes-Benz-GLE400-Coupe-44">
+
+                        <div class="card-body p-2 bg-white d-flex align-items-center justify-content-between">
+                            <div class="order-description">
+                                <h6 class="card-title">Mercedes-Benz GLE400 Coupe</h6>
+                                <p class="from m-0">(2017), 46 600 км</p>
+                                <p class="key-offer text-primary m-0"><span
+                                        class="euro-bold fw-bold">5 750 000 руб.</span>
+                                    -
+                                    цена под ключ</p>
+                            </div>
+                            <div class="catalog-btn">
+                                <button type="submit" class="card-btn" data-bs-toggle="modal"
+                                        data-bs-target="#modalMercedes-Benz-GLE400-Coupe-44">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Карточка автомобиля #24-->
                 <div class="swiper-slide">
                     <div class="product-card">
 
@@ -448,7 +474,7 @@
                     </div>
                 </div>
 
-                <!--Карточка автомобиля #24-->
+                <!--Карточка автомобиля #23-->
                 <div class="swiper-slide">
                     <div class="product-card">
 
@@ -467,32 +493,6 @@
                             <div class="catalog-btn">
                                 <button type="submit" class="card-btn" data-bs-toggle="modal"
                                         data-bs-target="#modalBMW-X5-xDrive40i-45">
-                                    Подробнее
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Карточка автомобиля #23-->
-                <div class="swiper-slide">
-                    <div class="product-card">
-
-                        <img src="images/cars/Mercedes-Benz-GLE400-Coupe-44/front.jpg" class="img-fluid"
-                             alt="Mercedes-Benz-GLE400-Coupe-44">
-
-                        <div class="card-body p-2 bg-white d-flex align-items-center justify-content-between">
-                            <div class="order-description">
-                                <h6 class="card-title">Mercedes-Benz GLE400 Coupe</h6>
-                                <p class="from m-0">(2017), 46 600 км</p>
-                                <p class="key-offer text-primary m-0"><span
-                                        class="euro-bold fw-bold">5 750 000 руб.</span>
-                                    -
-                                    цена под ключ</p>
-                            </div>
-                            <div class="catalog-btn">
-                                <button type="submit" class="card-btn" data-bs-toggle="modal"
-                                        data-bs-target="#modalMercedes-Benz-GLE400-Coupe-44">
                                     Подробнее
                                 </button>
                             </div>
@@ -1238,14 +1238,6 @@
 
                                         </div>
 
-                                        <div class="see-all my-4 float-end">
-                                            <a href="#catalog">
-                                                <button class="back-catalog characteristics fw-bolder text-primary py-4">
-                                                    Cмотреть все
-                                                </button>
-                                            </a>
-                                        </div>
-
                                     </div>
 
                                 </div>
@@ -1305,21 +1297,49 @@
                                     </div>
                                 </div>
 
+
+<!--                                test-->
                                 <div class="modal-btn my-2">
                                     <div class="row">
                                         <div class="car-fax-one col-lg-6 col-md-6 col-sm-12">
                                             <a class="text-decoration-none fax-btn btn w-100 d-flex justify-content-center align-items-center"
                                                href="./carfax/Mercedes-Benz-GLS-450-49.pdf" download>Отчет carfax</a>
                                         </div>
-                                        <div class="car-fax-two col-lg-6 col-md-6 col-sm-12 mt-2 mt-md-0">
-                                            <button class="order-btn btn w-100"
-                                                    data-title="Mercedes-Benz GLS 450 (7 425 000 руб.)"
-                                                    data-bs-toggle="modal"
-                                                    data-bs-target="#orderModal">Заказать автомобиль
-                                            </button>
+                                        <div class="car-fax-two col-lg-6 col-md-6 col-sm-12 mt-2 mt-md-0 d-flex">
+                                            <div class="col-9 pe-2">
+                                                <button class="order-btn btn w-100"
+                                                        data-title="Mercedes-Benz GLS 450 (7 425 000 руб.)"
+                                                        data-bs-toggle="modal"
+                                                        data-bs-target="#orderModal">Заказать автомобиль
+                                                </button>
+                                            </div>
+                                            <div class="col-3">
+                                                <button class="share-btn btn w-100"
+                                                        onclick="shareFunction()">Поделиться
+                                                </button>
+
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <!-- Модальное окно для выбора способа поделиться -->
+                                <div class="modal fade" id="shareModal" tabindex="-1" aria-labelledby="shareModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="shareModalLabel">Поделиться автомобилем</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body my-4">
+                                                <p>Выберите способ для отправки:</p>
+                                                <a href="#" id="whatsappShare" target="_blank" class="btn btn-success w-100 mb-2">Поделиться в WhatsApp</a>
+                                                <a href="#" id="telegramShare" target="_blank" class="btn btn-primary w-100">Поделиться в Telegram</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
 
                             </div>
                         </div>
@@ -1558,6 +1578,237 @@
                                             </button>
                                         </div>
                                     </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Mercedes-Benz GLE400 Coupe-->
+        <div class="modal fade" id="modalMercedes-Benz-GLE400-Coupe-44" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title me-3">Mercedes-Benz GLE400 Coupe (2017)</h5>
+                        <div class="sale text-primary">5 750 000 руб.<span class="key-offer text-primary"> - цена под ключ</span>
+                        </div>
+                        <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="row">
+                            <!-- Блок с характеристиками (lg и md 4 колонки) -->
+                            <div class="d-flex col-sm-12 col-md-4 col-lg-4 order-sm-last order-md-first">
+                                <div class="row scrollable-content w-auto">
+
+                                    <div class="col-4 characteristics text-secondary">
+                                        <p>Статус</p>
+                                        <p>Поколение</p>
+                                        <p>Год</p>
+                                        <p>Пробег</p>
+                                        <p>Кузов</p>
+                                        <p>Цвет</p>
+                                        <p>Двигатель</p>
+                                        <p>Коробка</p>
+                                        <p>Привод</p>
+                                        <p>Состояние</p>
+                                        <p>Владельцы</p>
+                                    </div>
+
+                                    <div class="col mt-lg-0 mt-md-0 mt-sm-0 characteristics">
+                                        <p>в наличии</p>
+                                        <p>I (C292)</p>
+                                        <p>2017</p>
+                                        <p>46 600</p>
+                                        <p>внедорожник 5 дв.</p>
+                                        <p>красный</p>
+                                        <p>3.0 л / 333 л.с. / Бензин</p>
+                                        <p>автоматическая</p>
+                                        <p>полный</p>
+                                        <p>без ДТП / без окрасов</p>
+                                        <p>3</p>
+                                    </div>
+
+                                    <div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="characteristics fw-bolder">Другие автомобили</div>
+                                            <div>
+                                                <a href="#catalog">
+                                                    <button class="back-catalog characteristics fw-bolder text-primary">
+                                                        Cмотреть все
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-3">
+                                            <div class="col-md-6">
+                                                <div class="product-card">
+                                                    <div data-bs-toggle="modal"
+                                                         data-bs-target="#modalINFINITI-QX80-18">
+                                                        <img src="images/cars/INFINITI-QX80-18/front-double.jpg"
+                                                             class="img-fluid"
+                                                             alt="INFINITI-QX80-18">
+                                                    </div>
+                                                    <div class="card-body p-2 bg-white d-flex align-items-center justify-content-between">
+                                                        <div class="order-description">
+                                                            <h6 class="card-title"><span class="new-car text-primary">Новый </span>INFINITI
+                                                                QX80
+                                                            </h6>
+                                                            <p class="from m-0">из CША (2024)</p>
+                                                            <p class="key-offer text-primary m-0"><span
+                                                                    class="euro-bold fw-bold">15 765 000 руб.</span>
+                                                                -
+                                                                цена под ключ</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="product-card">
+                                                    <div data-bs-toggle="modal"
+                                                         data-bs-target="#modalRange_Rover_86">
+                                                        <img src="images/cars/Range_Rover_86/front-double.jpg"
+                                                             class="img-fluid"
+                                                             alt="Range_Rover_86">
+                                                    </div>
+                                                    <div class="card-body p-2 bg-white d-flex align-items-center justify-content-between">
+                                                        <div class="order-description">
+                                                            <h6 class="card-title"><span class="new-car text-primary">Новый </span>Range
+                                                                Rover
+                                                            </h6>
+                                                            <p class="from m-0">из CША (2024)</p>
+                                                            <p class="key-offer text-primary m-0"><span
+                                                                    class="euro-bold fw-bold">17 670 000 руб.</span>
+                                                                -
+                                                                цена под ключ</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="product-card">
+                                                    <div data-bs-toggle="modal"
+                                                         data-bs-target="#modalMercedes-Benz_GLS_450_95">
+                                                        <img src="images/cars/Mercedes-Benz_GLS_450_95/front-double.jpg"
+                                                             class="img-fluid"
+                                                             alt="Mercedes-Benz_GLS_450_95">
+                                                    </div>
+                                                    <div class="card-body p-2 bg-white d-flex align-items-center justify-content-between">
+                                                        <div class="order-description">
+                                                            <h6 class="card-title"><span class="new-car text-primary">Новый </span>Mercedes-Benz
+                                                                GLS
+                                                                450
+                                                            </h6>
+                                                            <p class="from m-0">из CША (2024)</p>
+                                                            <p class="key-offer text-primary m-0"><span
+                                                                    class="euro-bold fw-bold">13 890 000 руб.</span>
+                                                                -
+                                                                цена под ключ</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="product-card">
+                                                    <div data-bs-toggle="modal"
+                                                         data-bs-target="#modalCadillac_Escalade">
+                                                        <img src="images/cars/Cadillac_Escalade/front-double.jpg"
+                                                             class="img-fluid"
+                                                             alt="Cadillac_Escalade">
+                                                    </div>
+                                                    <div class="card-body p-2 bg-white d-flex align-items-center justify-content-between">
+                                                        <div class="order-description">
+                                                            <h6 class="card-title"><span class="new-car text-primary">Новый </span>Cadillac
+                                                                Escalade
+                                                            </h6>
+                                                            <p class="from m-0">из CША (2024)</p>
+                                                            <p class="key-offer text-primary m-0"><span
+                                                                    class="euro-bold fw-bold">14 110 000 руб.</span>
+                                                                -
+                                                                цена под ключ</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-8 col-lg-8 order-first">
+                                <!-- Swiper слайдер -->
+                                <div class="swiper-container slider-container main-swiper">
+                                    <!-- Основной слайдер с большими изображениями -->
+                                    <div class="swiper-container main-slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide img-fluid"><img
+                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/front-double.jpg"
+                                                    alt="Mercedes-Benz-GLE400-Coupe-44"></div>
+                                            <div class="swiper-slide img-fluid"><img
+                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/back.jpg"
+                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
+                                            </div>
+                                            <div class="swiper-slide img-fluid"><img
+                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/side.jpg"
+                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
+                                            </div>
+                                            <div class="swiper-slide img-fluid"><img
+                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/in.jpg"
+                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
+                                            </div>
+                                            <div class="swiper-slide img-fluid"><img
+                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/int.jpg"
+                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Слайдер с миниатюрами -->
+                                    <div class="swiper-container thumbnail-slider">
+                                        <div class="swiper-wrapper ">
+                                            <div class="swiper-slide img-fluid"><img
+                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/front-double.jpg"
+                                                    alt="Mercedes-Benz-GLE400-Coupe-44"></div>
+                                            <div class="swiper-slide img-fluid"><img
+                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/back.jpg"
+                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
+                                            </div>
+                                            <div class="swiper-slide img-fluid"><img
+                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/side.jpg"
+                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
+                                            </div>
+                                            <div class="swiper-slide img-fluid"><img
+                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/in.jpg"
+                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
+                                            </div>
+                                            <div class="swiper-slide img-fluid"><img
+                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/int.jpg"
+                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal-btn my-2 px-2 row">
+                                    <button class="order-btn col-sm-12 col-md-12 col-lg-12"
+                                            data-title="Mercedes-Benz GLE400 Coupe (5 750 000 руб.)"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#orderModal">Заказать автомобиль
+                                    </button>
                                 </div>
 
                             </div>
@@ -2036,237 +2287,6 @@
                                             </button>
                                         </div>
                                     </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-
-        <!-- Mercedes-Benz GLE400 Coupe-->
-        <div class="modal fade" id="modalMercedes-Benz-GLE400-Coupe-44" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title me-3">Mercedes-Benz GLE400 Coupe (2017)</h5>
-                        <div class="sale text-primary">5 750 000 руб.<span class="key-offer text-primary"> - цена под ключ</span>
-                        </div>
-                        <button type="button" class="btn-close"
-                                data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        <div class="row">
-                            <!-- Блок с характеристиками (lg и md 4 колонки) -->
-                            <div class="d-flex col-sm-12 col-md-4 col-lg-4 order-sm-last order-md-first">
-                                <div class="row scrollable-content w-auto">
-
-                                    <div class="col-4 characteristics text-secondary">
-                                        <p>Статус</p>
-                                        <p>Поколение</p>
-                                        <p>Год</p>
-                                        <p>Пробег</p>
-                                        <p>Кузов</p>
-                                        <p>Цвет</p>
-                                        <p>Двигатель</p>
-                                        <p>Коробка</p>
-                                        <p>Привод</p>
-                                        <p>Состояние</p>
-                                        <p>Владельцы</p>
-                                    </div>
-
-                                    <div class="col mt-lg-0 mt-md-0 mt-sm-0 characteristics">
-                                        <p>в наличии</p>
-                                        <p>I (C292)</p>
-                                        <p>2017</p>
-                                        <p>46 600</p>
-                                        <p>внедорожник 5 дв.</p>
-                                        <p>красный</p>
-                                        <p>3.0 л / 333 л.с. / Бензин</p>
-                                        <p>автоматическая</p>
-                                        <p>полный</p>
-                                        <p>без ДТП / без окрасов</p>
-                                        <p>3</p>
-                                    </div>
-
-                                    <div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="characteristics fw-bolder">Другие автомобили</div>
-                                            <div>
-                                                <a href="#catalog">
-                                                    <button class="back-catalog characteristics fw-bolder text-primary">
-                                                        Cмотреть все
-                                                    </button>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row mt-3">
-                                            <div class="col-md-6">
-                                                <div class="product-card">
-                                                    <div data-bs-toggle="modal"
-                                                         data-bs-target="#modalINFINITI-QX80-18">
-                                                        <img src="images/cars/INFINITI-QX80-18/front-double.jpg"
-                                                             class="img-fluid"
-                                                             alt="INFINITI-QX80-18">
-                                                    </div>
-                                                    <div class="card-body p-2 bg-white d-flex align-items-center justify-content-between">
-                                                        <div class="order-description">
-                                                            <h6 class="card-title"><span class="new-car text-primary">Новый </span>INFINITI
-                                                                QX80
-                                                            </h6>
-                                                            <p class="from m-0">из CША (2024)</p>
-                                                            <p class="key-offer text-primary m-0"><span
-                                                                    class="euro-bold fw-bold">15 765 000 руб.</span>
-                                                                -
-                                                                цена под ключ</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6">
-                                                <div class="product-card">
-                                                    <div data-bs-toggle="modal"
-                                                         data-bs-target="#modalRange_Rover_86">
-                                                        <img src="images/cars/Range_Rover_86/front-double.jpg"
-                                                             class="img-fluid"
-                                                             alt="Range_Rover_86">
-                                                    </div>
-                                                    <div class="card-body p-2 bg-white d-flex align-items-center justify-content-between">
-                                                        <div class="order-description">
-                                                            <h6 class="card-title"><span class="new-car text-primary">Новый </span>Range
-                                                                Rover
-                                                            </h6>
-                                                            <p class="from m-0">из CША (2024)</p>
-                                                            <p class="key-offer text-primary m-0"><span
-                                                                    class="euro-bold fw-bold">17 670 000 руб.</span>
-                                                                -
-                                                                цена под ключ</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="product-card">
-                                                    <div data-bs-toggle="modal"
-                                                         data-bs-target="#modalMercedes-Benz_GLS_450_95">
-                                                        <img src="images/cars/Mercedes-Benz_GLS_450_95/front-double.jpg"
-                                                             class="img-fluid"
-                                                             alt="Mercedes-Benz_GLS_450_95">
-                                                    </div>
-                                                    <div class="card-body p-2 bg-white d-flex align-items-center justify-content-between">
-                                                        <div class="order-description">
-                                                            <h6 class="card-title"><span class="new-car text-primary">Новый </span>Mercedes-Benz
-                                                                GLS
-                                                                450
-                                                            </h6>
-                                                            <p class="from m-0">из CША (2024)</p>
-                                                            <p class="key-offer text-primary m-0"><span
-                                                                    class="euro-bold fw-bold">13 890 000 руб.</span>
-                                                                -
-                                                                цена под ключ</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6">
-                                                <div class="product-card">
-                                                    <div data-bs-toggle="modal"
-                                                         data-bs-target="#modalCadillac_Escalade">
-                                                        <img src="images/cars/Cadillac_Escalade/front-double.jpg"
-                                                             class="img-fluid"
-                                                             alt="Cadillac_Escalade">
-                                                    </div>
-                                                    <div class="card-body p-2 bg-white d-flex align-items-center justify-content-between">
-                                                        <div class="order-description">
-                                                            <h6 class="card-title"><span class="new-car text-primary">Новый </span>Cadillac
-                                                                Escalade
-                                                            </h6>
-                                                            <p class="from m-0">из CША (2024)</p>
-                                                            <p class="key-offer text-primary m-0"><span
-                                                                    class="euro-bold fw-bold">14 110 000 руб.</span>
-                                                                -
-                                                                цена под ключ</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-sm-12 col-md-8 col-lg-8 order-first">
-                                <!-- Swiper слайдер -->
-                                <div class="swiper-container slider-container main-swiper">
-                                    <!-- Основной слайдер с большими изображениями -->
-                                    <div class="swiper-container main-slider">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide img-fluid"><img
-                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/front-double.jpg"
-                                                    alt="Mercedes-Benz-GLE400-Coupe-44"></div>
-                                            <div class="swiper-slide img-fluid"><img
-                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/back.jpg"
-                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
-                                            </div>
-                                            <div class="swiper-slide img-fluid"><img
-                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/side.jpg"
-                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
-                                            </div>
-                                            <div class="swiper-slide img-fluid"><img
-                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/in.jpg"
-                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
-                                            </div>
-                                            <div class="swiper-slide img-fluid"><img
-                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/int.jpg"
-                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Слайдер с миниатюрами -->
-                                    <div class="swiper-container thumbnail-slider">
-                                        <div class="swiper-wrapper ">
-                                            <div class="swiper-slide img-fluid"><img
-                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/front-double.jpg"
-                                                    alt="Mercedes-Benz-GLE400-Coupe-44"></div>
-                                            <div class="swiper-slide img-fluid"><img
-                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/back.jpg"
-                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
-                                            </div>
-                                            <div class="swiper-slide img-fluid"><img
-                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/side.jpg"
-                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
-                                            </div>
-                                            <div class="swiper-slide img-fluid"><img
-                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/in.jpg"
-                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
-                                            </div>
-                                            <div class="swiper-slide img-fluid"><img
-                                                    src="images/cars/Mercedes-Benz-GLE400-Coupe-44/int.jpg"
-                                                    alt="Mercedes-Benz-GLE400-Coupe-44">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="modal-btn my-2 px-2 row">
-                                    <button class="order-btn col-sm-12 col-md-12 col-lg-12"
-                                            data-title="Mercedes-Benz GLE400 Coupe (5 750 000 руб.)"
-                                            data-bs-toggle="modal"
-                                            data-bs-target="#orderModal">Заказать автомобиль
-                                    </button>
                                 </div>
 
                             </div>

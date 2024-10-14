@@ -144,7 +144,7 @@ let modalIDs = [
     'modalAudi-Q7-45-TDI-23', 'modalPorsche-Panamera-24', 'modalPorsche-Cayenne-25', 'modalPorsche-Cayenne-26', 'modalBMW-X5-xDrive30d-36',
     'modalBMW-X7-M50d-38', 'modalBMW-X7-xDrive40i-39', 'modalMB-GLE-53-AMG-Coupe-42',
     'modalVolvo-XC90-B5-Diesel-43', 'modalMercedes-Benz-GLE400-Coupe-44', 'modalBMW-X5-xDrive40i-45', 'modalMercedes-Benz-GLE-350-46', 'modalMercedes-Benz-S350d-47',
-'modalRange-Rover-48', 'modalMercedes-Benz-GLS-450-49', 'modalVolkswagen-Touareg-50'];
+    'modalRange-Rover-48', 'modalMercedes-Benz-GLS-450-49', 'modalVolkswagen-Touareg-50'];
 
 // Инициализация обработчика для каждого модального окна
 modalIDs.forEach(function (modalID) {
@@ -289,7 +289,7 @@ $(document).ready(function () {
         '#modalAudi-Q7-45-TDI-23', '#modalPorsche-Panamera-24', '#modalPorsche-Cayenne-25', '#modalPorsche-Cayenne-26', '#modalBMW-X5-xDrive30d-36',
         '#modalBMW-X7-M50d-38', '#modalBMW-X7-xDrive40i-39', '#modalMB-GLE-53-AMG-Coupe-42',
         '#modalVolvo-XC90-B5-Diesel-43', '#modalMercedes-Benz-GLE400-Coupe-44', '#modalBMW-X5-xDrive40i-45', '#modalMercedes-Benz-GLE-350-46', '#modalMercedes-Benz-S350d-47',
-    '#modalRange-Rover-48', '#modalMercedes-Benz-GLS-450-49', '#modalVolkswagen-Touareg-50'];
+        '#modalRange-Rover-48', '#modalMercedes-Benz-GLS-450-49', '#modalVolkswagen-Touareg-50'];
 
     modalIds.forEach(function (modalId) {
         if (window.location.href.indexOf(modalId) !== -1) {
@@ -311,5 +311,75 @@ $(document).ready(function () {
         }, 'slow');
     });
 });
+
+//SHARE TEST
+function shareFunction() {
+    const url = window.location.href; // Получаем текущий URL страницы
+    const title = 'Посмотри на этот автомобиль';
+    const text = `Посмотри на этот автомобиль: ${url}`;
+
+    // Проверяем, поддерживается ли Web Share API в браузере
+    if (navigator.share) {
+        navigator.share({
+            title: title,
+            text: text,
+            url: url
+        }).then(() => {
+            console.log('Успешно поделились');
+        }).catch((error) => {
+            console.error('Ошибка при шаринге:', error);
+        });
+    } else {
+        // Если Web Share API не поддерживается, можно fallback на ваше модальное окно
+        console.warn('Web Share API не поддерживается. Используем стандартное модальное окно.');
+
+        // Открываем модальное окно с Bootstrap (fallback на старый способ)
+        const shareModal = new bootstrap.Modal(document.getElementById('shareModal'));
+        shareModal.show();
+    }
+}
+
+
+
+//MODAL TEST
+function openModal(element) {
+    const modalId = element.getAttribute('data-bs-target'); // Получаем ID модального окна из атрибута data-bs-target
+    const newUrl = element.getAttribute('data-url'); // Получаем новый URL из атрибута data-url
+
+    // Открываем модальное окно с помощью Bootstrap
+    const modalElement = document.getElementById(modalId);
+    const modalInstance = new bootstrap.Modal(modalElement);
+    modalInstance.show();
+
+    // Меняем URL в адресной строке без перезагрузки страницы
+    if (newUrl) {
+        history.pushState({ modalId: modalId }, '', newUrl);
+    }
+
+    // Закрытие модального окна и возврат исходного URL
+    modalElement.addEventListener('hidden.bs.modal', function () {
+        history.replaceState(null, '', window.location.pathname);
+    });
+}
+
+// При загрузке страницы проверяем, был ли открыт модал ранее
+document.addEventListener('DOMContentLoaded', function () {
+    const currentState = history.state;
+
+    if (currentState && currentState.modalId) {
+        const modalElement = document.getElementById(currentState.modalId);
+        const modalInstance = new bootstrap.Modal(modalElement);
+        modalInstance.show();
+
+        modalElement.addEventListener('hidden.bs.modal', function () {
+            history.replaceState(null, '', window.location.pathname);
+        });
+    }
+});
+
+
+
+
+
 
 

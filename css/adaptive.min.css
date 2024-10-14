@@ -433,10 +433,6 @@
     .characteristics p {
         margin-bottom: 5px;
     }
-
-    .see-all {
-        display: flex;
-    }
 }
 
 @media screen and (max-width: 424px) {

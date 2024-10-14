@@ -763,6 +763,7 @@ iframe {
     }
 }
 
-.see-all {
-    display: none;
+/*test*/
+.share-btn {
+    border-radius: 10px;
 }
