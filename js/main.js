@@ -341,41 +341,8 @@ function shareFunction() {
 
 
 
-//MODAL TEST
-function openModal(element) {
-    const modalId = element.getAttribute('data-bs-target'); // Получаем ID модального окна из атрибута data-bs-target
-    const newUrl = element.getAttribute('data-url'); // Получаем новый URL из атрибута data-url
 
-    // Открываем модальное окно с помощью Bootstrap
-    const modalElement = document.getElementById(modalId);
-    const modalInstance = new bootstrap.Modal(modalElement);
-    modalInstance.show();
 
-    // Меняем URL в адресной строке без перезагрузки страницы
-    if (newUrl) {
-        history.pushState({ modalId: modalId }, '', newUrl);
-    }
-
-    // Закрытие модального окна и возврат исходного URL
-    modalElement.addEventListener('hidden.bs.modal', function () {
-        history.replaceState(null, '', window.location.pathname);
-    });
-}
-
-// При загрузке страницы проверяем, был ли открыт модал ранее
-document.addEventListener('DOMContentLoaded', function () {
-    const currentState = history.state;
-
-    if (currentState && currentState.modalId) {
-        const modalElement = document.getElementById(currentState.modalId);
-        const modalInstance = new bootstrap.Modal(modalElement);
-        modalInstance.show();
-
-        modalElement.addEventListener('hidden.bs.modal', function () {
-            history.replaceState(null, '', window.location.pathname);
-        });
-    }
-});
 
 
 
