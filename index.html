@@ -388,7 +388,7 @@
                             </div>
                             <div class="catalog-btn">
                                 <button type="submit" class="card-btn" data-bs-toggle="modal"
-                                        data-bs-target="#modalMercedes-Benz-GLS-450-49" data-url="/modalMercedes-Benz-GLS-450-49" onclick="openModal(this)">
+                                        data-bs-target="#modalMercedes-Benz-GLS-450-49">
                                     Подробнее
                                 </button>
                             </div>
@@ -414,7 +414,7 @@
                             </div>
                             <div class="catalog-btn">
                                 <button type="submit" class="card-btn" data-bs-toggle="modal"
-                                        data-bs-target="#modalRange-Rover-48" data-url="/modalRange-Rover-48" onclick="openModal(this)">
+                                        data-bs-target="#modalRange-Rover-48">
                                     Подробнее
                                 </button>
                             </div>
@@ -1298,27 +1298,23 @@
                                 </div>
 
 
-<!--                                test-->
                                 <div class="modal-btn my-2">
                                     <div class="row">
-                                        <div class="car-fax-one col-lg-6 col-md-6 col-sm-12">
+                                        <div class="car-fax-one col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
                                             <a class="text-decoration-none fax-btn btn w-100 d-flex justify-content-center align-items-center"
                                                href="./carfax/Mercedes-Benz-GLS-450-49.pdf" download>Отчет carfax</a>
                                         </div>
-                                        <div class="car-fax-two col-lg-6 col-md-6 col-sm-12 mt-2 mt-md-0 d-flex">
-                                            <div class="col-9 pe-2">
-                                                <button class="order-btn btn w-100"
-                                                        data-title="Mercedes-Benz GLS 450 (7 425 000 руб.)"
-                                                        data-bs-toggle="modal"
-                                                        data-bs-target="#orderModal">Заказать автомобиль
-                                                </button>
-                                            </div>
-                                            <div class="col-3">
-                                                <button class="share-btn btn w-100 bg-gradient border-info-subtle"
-                                                        onclick="shareFunction()">Share
-                                                </button>
-
-                                            </div>
+                                        <div class="btn-group p-1 mt-2 mt-md-0 d-flex justify-content-between" role="group" style="flex: 1;" >
+                                            <button class="order-btn  btn flex-fill"
+                                                    data-title="Mercedes-Benz GLS 450 (7 425 000 руб.)"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#orderModal">Заказать автомобиль
+                                            </button>
+                                            <button type="button" class="btn mx-1 bg-success text-center align-items-center flex-fill" onclick="shareCard('modalMercedes-Benz-GLS-450-49')">
+                                                <svg width="23" height="25" viewBox="0 0 30 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M22.12 6.01335C22.489 6.64646 23.0562 7.14037 23.7341 7.41865C24.412 7.69693 25.1627 7.74409 25.8701 7.55283C26.5774 7.36156 27.2021 6.94254 27.6473 6.36057C28.0926 5.7786 28.3337 5.06612 28.3333 4.33335C28.3331 3.82156 28.215 3.3167 27.9882 2.85791C27.7614 2.39912 27.432 1.9987 27.0255 1.68771C26.6191 1.37672 26.1465 1.1635 25.6443 1.06457C25.1422 0.965647 24.624 0.983675 24.13 1.11726C23.6359 1.25084 23.1793 1.49639 22.7954 1.83488C22.4115 2.17337 22.1108 2.5957 21.9164 3.06915C21.722 3.5426 21.6393 4.05444 21.6746 4.56501C21.7099 5.07558 21.8623 5.57116 22.12 6.01335ZM22.12 6.01335L7.88001 14.32M7.88001 14.32C7.51085 13.6874 6.94359 13.194 6.26592 12.916C5.58824 12.6381 4.83789 12.5911 4.13082 12.7823C3.42376 12.9735 2.79936 13.3923 2.35414 13.9739C1.90892 14.5555 1.66766 15.2676 1.66766 16C1.66766 16.7325 1.90892 17.4445 2.35414 18.0262C2.79936 18.6078 3.42376 19.0266 4.13082 19.2178C4.83789 19.409 5.58824 19.362 6.26592 19.084C6.94359 18.8061 7.51085 18.3126 7.88001 17.68M7.88001 14.32C8.17755 14.8299 8.33433 15.4097 8.33433 16C8.33433 16.5904 8.17755 17.1701 7.88001 17.68M7.88001 17.68L22.12 25.9867M22.12 25.9867C22.3333 25.595 22.623 25.2502 22.9719 24.9725C23.3209 24.6948 23.722 24.49 24.1515 24.3701C24.581 24.2503 25.0303 24.2178 25.4726 24.2747C25.9149 24.3316 26.3413 24.4766 26.7265 24.7012C27.1117 24.9259 27.448 25.2255 27.7153 25.5824C27.9827 25.9393 28.1757 26.3463 28.283 26.7791C28.3902 27.212 28.4095 27.662 28.3397 28.1024C28.2699 28.5429 28.1125 28.9648 27.8767 29.3433C27.4181 30.0794 26.6908 30.6077 25.8491 30.8163C25.0074 31.0248 24.1175 30.8972 23.3684 30.4604C22.6193 30.0235 22.0699 29.312 21.8368 28.4767C21.6037 27.6415 21.7053 26.7483 22.12 25.9867Z" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
