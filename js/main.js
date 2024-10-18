@@ -360,10 +360,10 @@ function shareCard(cardId) {
     // Проверяем, поддерживается ли Web Share API
     if (navigator.share) {
         navigator.share({
-            title: `Карточка ${cardId}`,
+            title: `Карточка автомобиля ${cardId}`,
             url: shareUrl
         }).then(() => {
-            console.log('Ссылка успешно поделена.');
+            console.log('Ссылка успешно отправлена.');
         }).catch((error) => {
             console.error('Ошибка при попытке поделиться:', error);
         });
