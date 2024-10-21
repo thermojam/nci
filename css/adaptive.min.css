@@ -311,6 +311,17 @@
     .footer-logo {
         margin-bottom: 30px
     }
+
+    .share-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .order-btn {
+        border-radius: 10px 0 0 10px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -558,6 +569,8 @@
     .contacts-info {
         margin-top: 0 !important
     }
+
+
 }
 
 @media screen and (max-width: 366px) {
