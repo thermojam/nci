@@ -769,3 +769,16 @@ iframe {
     background: rgba(10, 51, 76, .9);
 }
 
+.logo-overlay .logo-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.img-logo-card {
+    padding: 25px 0 27px 0;
+}
+
