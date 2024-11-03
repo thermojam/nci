@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3136dda6-c76a-44a2-8e9f-3d82c283ab70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-cars/audi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-cars/bentley.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-cars/bmw.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-cars/ford.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-cars/lr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-cars/mb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-cars/porsche.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-cars/toyota.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-cars/volvo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +85,7 @@
       <workItem from="1730127248096" duration="743000" />
       <workItem from="1730438146328" duration="13110000" />
       <workItem from="1730547015107" duration="2848000" />
+      <workItem from="1730611097962" duration="3206000" />
     </task>
     <servers />
   </component>
