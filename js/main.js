@@ -138,16 +138,17 @@ let modalIDs = [
     'modalBMW-X6-xDrive40i-72',
     'modalAudi-A6-allroad-90', 'modalRange-Rover-Sport-91',
     'modalAudi-Q7-02', 'modalMB-AMG-GLE53-03', 'modalBentley-Bentayga-07',
-    'modalRange-Rover-Sport-08', 'modalAudi-A8-Long-55-TFSI-10',
+    'modalAudi-A8-Long-55-TFSI-10',
     'modalAudi-Q7-45-TFSI-15', 'modalBMW-740d-xDrive-16',
-    'modalBMW-740i-xDrive-17', 'modalINFINITI-QX80-18', 'modalVolvo-XC90-B5-19',
-    'modalAudi-Q7-45-TDI-23', 'modalPorsche-Panamera-24', 'modalPorsche-Cayenne-25', 'modalPorsche-Cayenne-26', 'modalBMW-X5-xDrive30d-36',
+    'modalINFINITI-QX80-18', 'modalVolvo-XC90-B5-19',
+    'modalPorsche-Panamera-24', 'modalPorsche-Cayenne-25', 'modalPorsche-Cayenne-26', 'modalBMW-X5-xDrive30d-36',
     'modalBMW-X7-M50d-38',
     'modalMercedes-Benz-GLE400-Coupe-44', 'modalBMW-X5-xDrive40i-45',
-    'modalRange-Rover-48', 'modalMercedes-Benz-GLS-450-49', 'modalVolkswagen-Touareg-50', 'modalVolvo-XC90-B5-Diesel-51', 'modalBMW-X7-xDrive40i-52',
+    'modalRange-Rover-48', 'modalVolvo-XC90-B5-Diesel-51', 'modalBMW-X7-xDrive40i-52',
     'modalMB-GLE-53-AMG-54', 'modalMercedes-Benz-S400d-56', 'modalBMW-520i-57', 'modalJeep-Grand-Cherokee-58',
     'modalJeep-Wrangler-59', 'modalMercedes-Benz-E200-60', 'modalMB-G-class-61', 'modalAudi-Q8-55TFSI-62', 'modalMercedes-Benz-GLE-350-63', 'modalPorsche-Panamera-64',
-    'modalMercedes-Benz-CLE200-65', 'modalBentley-Flying-Spur-66'];
+    'modalMercedes-Benz-CLE200-65', 'modalBentley-Flying-Spur-66', 'modalRange-Rover-Sport-67', 'modalBMW-740i-xDrive-68', 'modalMercedes-Benz-GLS-450-69',
+    'modalAudi-Q7-45-TDI-70'];
 
 // Инициализация обработчика для каждого модального окна
 modalIDs.forEach(function (modalID) {
@@ -285,16 +286,17 @@ $(document).ready(function () {
         '#modalBMW-X6-xDrive40i-72',
         '#modalAudi-A6-allroad-90', '#modalRange-Rover-Sport-91',
         '#modalAudi-Q7-02', '#modalMB-AMG-GLE53-03', '#modalBentley-Bentayga-07',
-        '#modalRange-Rover-Sport-08', '#modalAudi-A8-Long-55-TFSI-10',
+        '#modalAudi-A8-Long-55-TFSI-10',
         '#modalAudi-Q7-45-TFSI-15', '#modalBMW-740d-xDrive-16',
-        '#modalBMW-740i-xDrive-17', '#modalINFINITI-QX80-18', '#modalVolvo-XC90-B5-19',
-        '#modalAudi-Q7-45-TDI-23', '#modalPorsche-Panamera-24', '#modalPorsche-Cayenne-25', '#modalPorsche-Cayenne-26', '#modalBMW-X5-xDrive30d-36',
+        '#modalINFINITI-QX80-18', '#modalVolvo-XC90-B5-19',
+        '#modalPorsche-Panamera-24', '#modalPorsche-Cayenne-25', '#modalPorsche-Cayenne-26', '#modalBMW-X5-xDrive30d-36',
         '#modalBMW-X7-M50d-38',
         '#modalMercedes-Benz-GLE400-Coupe-44', '#modalBMW-X5-xDrive40i-45',
-        '#modalRange-Rover-48', '#modalMercedes-Benz-GLS-450-49', '#modalVolkswagen-Touareg-50', '#modalVolvo-XC90-B5-Diesel-51', '#modalBMW-X7-xDrive40i-52',
+        '#modalRange-Rover-48', '#modalVolvo-XC90-B5-Diesel-51', '#modalBMW-X7-xDrive40i-52',
         '#modalMB-GLE-53-AMG-54', '#modalMercedes-Benz-S400d-56', '#modalBMW-520i-57', '#modalJeep-Grand-Cherokee-58',
         '#modalJeep-Wrangler-59', '#modalMercedes-Benz-E200-60', '#modalMB-G-class-61', '#modalAudi-Q8-55TFSI-62', '#modalMercedes-Benz-GLE-350-63', '#modalPorsche-Panamera-64',
-        '#modalMercedes-Benz-CLE200-65', '#modalBentley-Flying-Spur-66'];
+        '#modalMercedes-Benz-CLE200-65', '#modalBentley-Flying-Spur-66', '#modalRange-Rover-Sport-67', '#modalBMW-740i-xDrive-68', '#modalMercedes-Benz-GLS-450-69',
+        '#modalAudi-Q7-45-TDI-70'];
 
     modalIds.forEach(function (modalId) {
         if (window.location.href.indexOf(modalId) !== -1) {
@@ -331,16 +333,17 @@ const modals = [
     'modalBMW-X6-xDrive40i-72',
     'modalAudi-A6-allroad-90', 'modalRange-Rover-Sport-91',
     'modalAudi-Q7-02', 'modalMB-AMG-GLE53-03', 'modalBentley-Bentayga-07',
-    'modalRange-Rover-Sport-08', 'modalAudi-A8-Long-55-TFSI-10',
+    'modalAudi-A8-Long-55-TFSI-10',
     'modalAudi-Q7-45-TFSI-15', 'modalBMW-740d-xDrive-16',
-    'modalBMW-740i-xDrive-17', 'modalINFINITI-QX80-18', 'modalVolvo-XC90-B5-19',
-    'modalAudi-Q7-45-TDI-23', 'modalPorsche-Panamera-24', 'modalPorsche-Cayenne-25', 'modalPorsche-Cayenne-26', 'modalBMW-X5-xDrive30d-36',
+     'modalINFINITI-QX80-18', 'modalVolvo-XC90-B5-19',
+    'modalPorsche-Panamera-24', 'modalPorsche-Cayenne-25', 'modalPorsche-Cayenne-26', 'modalBMW-X5-xDrive30d-36',
     'modalBMW-X7-M50d-38',
     'modalMercedes-Benz-GLE400-Coupe-44', 'modalBMW-X5-xDrive40i-45',
-    'modalRange-Rover-48', 'modalMercedes-Benz-GLS-450-49', 'modalVolkswagen-Touareg-50', 'modalVolvo-XC90-B5-Diesel-51', 'modalBMW-X7-xDrive40i-52',
+    'modalRange-Rover-48',  'modalVolvo-XC90-B5-Diesel-51', 'modalBMW-X7-xDrive40i-52',
     'modalMB-GLE-53-AMG-54', 'modalMercedes-Benz-S400d-56', 'modalBMW-520i-57', 'modalJeep-Grand-Cherokee-58',
     'modalJeep-Wrangler-59', 'modalMercedes-Benz-E200-60', 'modalMB-G-class-61', 'modalAudi-Q8-55TFSI-62', 'modalMercedes-Benz-GLE-350-63', 'modalPorsche-Panamera-64',
-    'modalMercedes-Benz-CLE200-65', 'modalBentley-Flying-Spur-66'];
+    'modalMercedes-Benz-CLE200-65', 'modalBentley-Flying-Spur-66', 'modalRange-Rover-Sport-67', 'modalBMW-740i-xDrive-68', 'modalMercedes-Benz-GLS-450-69',
+    'modalAudi-Q7-45-TDI-70'];
 
 $(document).ready(function () {
     // Оптимизированные обработчики для открытия и закрытия модальных окон

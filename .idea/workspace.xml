@@ -6,8 +6,36 @@
   <component name="ChangeListManager">
     <list default="true" id="3136dda6-c76a-44a2-8e9f-3d82c283ab70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carfax/BMW-740i-xDrive-17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carfax/Mercedes-Benz-GLS-450-49.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-23/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-23/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-23/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-23/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-23/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740i-xDrive-17/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740i-xDrive-17/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740i-xDrive-17/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740i-xDrive-17/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740i-xDrive-17/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-49/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-49/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-49/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-49/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-49/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-08/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-08/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-08/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-08/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-08/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-50/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-50/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-50/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-50/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-50/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/offer.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +75,11 @@
       <recent name="C:\Users\Susik\Desktop\ncimport\carfax" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Susik\Desktop\ncimport\images\logo-cars" />
-      <recent name="C:\Users\Susik\Desktop\ncimport\carfax" />
+      <recent name="C:\Users\Susik\Desktop\ncimport\images\cars\Jeep-sale" />
+      <recent name="C:\Users\Susik\Desktop\ncimport\images\cars\BentleyBentayga-sale" />
+      <recent name="C:\Users\Susik\Desktop\ncimport\images\cars\Volvo-XC90" />
       <recent name="C:\Users\Susik\Desktop\ncimport\images\cars" />
-      <recent name="C:\Users\Susik\Desktop\ncimport\images" />
+      <recent name="C:\Users\Susik\Desktop\ncimport\carfax" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +114,11 @@
       <workItem from="1730127248096" duration="743000" />
       <workItem from="1730438146328" duration="13110000" />
       <workItem from="1730547015107" duration="2848000" />
-      <workItem from="1730611097962" duration="3206000" />
+      <workItem from="1730611097962" duration="4611000" />
+      <workItem from="1730648664585" duration="114000" />
+      <workItem from="1730651601460" duration="950000" />
+      <workItem from="1730655761847" duration="620000" />
+      <workItem from="1730697961621" duration="11064000" />
     </task>
     <servers />
   </component>
