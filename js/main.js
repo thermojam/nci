@@ -387,13 +387,18 @@ function shareCard(cardId) {
     }
 }
 
-// Функция для показа модального окна через 40 сек
+// setTimeout 40 sec Modal
 function showDelayedModal() {
     const modalElement = new bootstrap.Modal(document.getElementById('callModal'), {
         backdrop: 'static', // Не позволяет закрывать окно по клику вне его
         keyboard: false     // Не позволяет закрывать окно клавишей Esc
     });
-    modalElement.show();
+
+    // Проверяем, открыто ли модальное окно перед показом
+    const isAlreadyOpen = document.getElementById('callModal').classList.contains('show');
+    if (!isAlreadyOpen) {
+        modalElement.show();
+    }
 }
 
 // Функция запуска таймера после первого клика
@@ -406,6 +411,7 @@ function startTimerAfterFirstClick() {
 
 // Устанавливаем обработчик на первый клик
 document.addEventListener('click', startTimerAfterFirstClick);
+
 
 
 
