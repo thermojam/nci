@@ -450,7 +450,7 @@
 }
 
 .modal {
-    background: rgba(0, 0, 0, .62)
+    background: rgba(0, 0, 0, .30)
 }
 
 .modal-body {
@@ -466,7 +466,11 @@
 .modal-dialog {
     max-width: 1200px;
     margin: 0 auto;
-    z-index: 999
+
+}
+
+#callModal {
+    z-index: 99999;
 }
 
 .modal-dialog-form {

@@ -321,7 +321,6 @@ $(document).ready(function () {
     });
 });
 
-
 // URL modal address bar
 const modals = [
     'modalCadillac_Escalade', 'modalBMW_X7_xDrive40i_049', 'modalRange_Rover_86',
@@ -346,7 +345,7 @@ const modals = [
     'modalJeep-Wrangler-59', 'modalMercedes-Benz-E200-60', 'modalMB-G-class-61', 'modalAudi-Q8-55TFSI-62', 'modalMercedes-Benz-GLE-350-63', 'modalPorsche-Panamera-64',
     'modalMercedes-Benz-CLE200-65', 'modalBentley-Flying-Spur-66', 'modalBMW-740i-xDrive-68', 'modalMercedes-Benz-GLS-450-69',
     'modalRange-Rover-Sport-71', 'modalMercedes-Benz-S450-72', 'modalAudi-A6-allroad-73', 'modalAudi-Q7-45-TDI-74', 'modalPorsche-Cayenne-75', 'modalVolkswagen-Touareg-77',
-    'modalVolvo-XC90-B5-Diesel-76'];
+    'modalVolvo-XC90-B5-Diesel-76',];
 
 $(document).ready(function () {
 
@@ -387,6 +386,36 @@ function shareCard(cardId) {
             .catch(err => alert('Ошибка при копировании ссылки.'));
     }
 }
+
+// Функция для показа модального окна через 40 сек
+function showDelayedModal() {
+    const modalElement = new bootstrap.Modal(document.getElementById('callModal'), {
+        backdrop: 'static', // Не позволяет закрывать окно по клику вне его
+        keyboard: false     // Не позволяет закрывать окно клавишей Esc
+    });
+    modalElement.show();
+}
+
+// Функция запуска таймера после первого клика
+function startTimerAfterFirstClick() {
+    // Запускаем таймер на 10 секунд (10000 миллисекунд)
+    setTimeout(showDelayedModal, 10000);
+    // Убираем обработчик, чтобы таймер не перезапускался
+    document.removeEventListener('click', startTimerAfterFirstClick);
+}
+
+// Устанавливаем обработчик на первый клик
+document.addEventListener('click', startTimerAfterFirstClick);
+
+
+
+
+
+
+
+
+
+
 
 
 

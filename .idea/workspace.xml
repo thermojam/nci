@@ -6,35 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3136dda6-c76a-44a2-8e9f-3d82c283ab70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carfax/Porsche-Cayenne-26.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A6-allroad-90/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A6-allroad-90/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A6-allroad-90/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A6-allroad-90/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A6-allroad-90/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-70/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-70/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-70/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-70/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-70/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S400d-56/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S400d-56/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S400d-56/front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S400d-56/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S400d-56/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S400d-56/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-26/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-26/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-26/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-26/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-26/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-67/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-67/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-67/front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-67/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-67/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-Sport-67/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Volvo-XC90-sale/front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/offer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/offer.xml" afterDir="false" />
@@ -43,6 +15,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +41,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.15.0",
+    "javascript.nodejs.core.library.typings.version": "18.15.0",
     "last_opened_file_path": "C:/Users/Susik/Desktop/ncimport",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -122,7 +103,12 @@
       <workItem from="1730655761847" duration="620000" />
       <workItem from="1730697961621" duration="13792000" />
       <workItem from="1731049142403" duration="13000" />
-      <workItem from="1731302217544" duration="6125000" />
+      <workItem from="1731302217544" duration="8519000" />
+      <workItem from="1731332904137" duration="23000" />
+      <workItem from="1731334351112" duration="6844000" />
+      <workItem from="1731361338013" duration="1041000" />
+      <workItem from="1731403269468" duration="17000" />
+      <workItem from="1731403845670" duration="1008000" />
     </task>
     <servers />
   </component>
