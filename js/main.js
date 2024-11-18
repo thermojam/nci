@@ -16,11 +16,20 @@ window.addEventListener("load", function () {
 
 // VALIDATION and Masks
 $('.mask').mask('+7 (999) 999 99 99');
-// modal-call
+// timeoutModal
+document.getElementById('name_timeout').addEventListener('input', function () {
+    this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё\s]/g, '');
+});
 
+document.getElementById('mobile_timeout').addEventListener('input', function () {
+    this.value = this.value.replace(/[^0-9+]/g, '');
+});
+
+// modal-call
 document.getElementById('name_call').addEventListener('input', function () {
     this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё\s]/g, '');
 });
+
 document.getElementById('mobile_call').addEventListener('input', function () {
     this.value = this.value.replace(/[^0-9+]/g, '');
 });
@@ -134,22 +143,17 @@ let modalIDs = [
     'modalLexus_GX_550_12', 'modalMercedes-Benz_GLC_300_14', 'modalBMW_X6_xDrive40i_17',
     'modalToyota_LC_250_20', 'modalFord-F-150-Raptor-V8-29',
     'modalMercedes-Benz-AMG-GLE53-Coupe-44',
-    'modalBMW-X5M-Competition-48',
-    'modalBMW-X6-xDrive40i-72',
-    'modalRange-Rover-Sport-91',
-    'modalAudi-Q7-02', 'modalMB-AMG-GLE53-03', 'modalBentley-Bentayga-07',
-    'modalAudi-A8-Long-55-TFSI-10',
+    'modalBMW-X5M-Competition-48', 'modalRange-Rover-Sport-91', 'modalAudi-Q7-02', 'modalMB-AMG-GLE53-03', 'modalBentley-Bentayga-07',
     'modalAudi-Q7-45-TFSI-15', 'modalBMW-740d-xDrive-16',
     'modalINFINITI-QX80-18', 'modalVolvo-XC90-B5-19',
     'modalPorsche-Panamera-24', 'modalPorsche-Cayenne-25', 'modalBMW-X5-xDrive30d-36',
-    'modalBMW-X7-M50d-38',
-    'modalMercedes-Benz-GLE400-Coupe-44', 'modalBMW-X5-xDrive40i-45',
+    'modalBMW-X7-M50d-38', 'modalMercedes-Benz-GLE400-Coupe-44', 'modalBMW-X5-xDrive40i-45',
     'modalRange-Rover-48', 'modalVolvo-XC90-B5-Diesel-51', 'modalBMW-X7-xDrive40i-52',
     'modalMB-GLE-53-AMG-54', 'modalBMW-520i-57', 'modalJeep-Grand-Cherokee-58',
     'modalJeep-Wrangler-59', 'modalMercedes-Benz-E200-60', 'modalMB-G-class-61', 'modalAudi-Q8-55TFSI-62', 'modalMercedes-Benz-GLE-350-63', 'modalPorsche-Panamera-64',
     'modalMercedes-Benz-CLE200-65', 'modalBentley-Flying-Spur-66', 'modalBMW-740i-xDrive-68', 'modalMercedes-Benz-GLS-450-69',
-    'modalRange-Rover-Sport-71', 'modalMercedes-Benz-S450-72', 'modalAudi-A6-allroad-73', 'modalAudi-Q7-45-TDI-74', 'modalPorsche-Cayenne-75', 'modalVolkswagen-Touareg-77',
-    'modalVolvo-XC90-B5-Diesel-76'];
+    'modalMercedes-Benz-S450-72', 'modalAudi-A6-allroad-73', 'modalAudi-Q7-45-TDI-74', 'modalPorsche-Cayenne-75', 'modalVolkswagen-Touareg-77',
+    'modalVolvo-XC90-B5-Diesel-76', 'modalAudi-A8-60-TFSIe-78', 'modalBMW-X6-xDrive40i-79', 'modalRange-Rover-Sport-80'];
 
 // Инициализация обработчика для каждого модального окна
 modalIDs.forEach(function (modalID) {
@@ -284,21 +288,18 @@ $(document).ready(function () {
         '#modalBMW_X7_xDrive40i_3', '#modalLexus_GX_550_12', '#modalMercedes-Benz_GLC_300_14',
         '#modalBMW_X6_xDrive40i_17', '#modalToyota_LC_250_20', '#modalFord-F-150-Raptor-V8-29',
         '#modalMercedes-Benz-AMG-GLE53-Coupe-44', '#modalBMW-X5M-Competition-48',
-        '#modalBMW-X6-xDrive40i-72',
         '#modalRange-Rover-Sport-91',
         '#modalAudi-Q7-02', '#modalMB-AMG-GLE53-03', '#modalBentley-Bentayga-07',
-        '#modalAudi-A8-Long-55-TFSI-10',
         '#modalAudi-Q7-45-TFSI-15', '#modalBMW-740d-xDrive-16',
         '#modalINFINITI-QX80-18', '#modalVolvo-XC90-B5-19',
-        '#modalPorsche-Panamera-24', '#modalPorsche-Cayenne-25', '#modalBMW-X5-xDrive30d-36',
-        '#modalBMW-X7-M50d-38',
+        '#modalPorsche-Panamera-24', '#modalPorsche-Cayenne-25', '#modalBMW-X5-xDrive30d-36', '#modalBMW-X7-M50d-38',
         '#modalMercedes-Benz-GLE400-Coupe-44', '#modalBMW-X5-xDrive40i-45',
         '#modalRange-Rover-48', '#modalVolvo-XC90-B5-Diesel-51', '#modalBMW-X7-xDrive40i-52',
         '#modalMB-GLE-53-AMG-54', '#modalBMW-520i-57', '#modalJeep-Grand-Cherokee-58',
         '#modalJeep-Wrangler-59', '#modalMercedes-Benz-E200-60', '#modalMB-G-class-61', '#modalAudi-Q8-55TFSI-62', '#modalMercedes-Benz-GLE-350-63', '#modalPorsche-Panamera-64',
         '#modalMercedes-Benz-CLE200-65', '#modalBentley-Flying-Spur-66', '#modalBMW-740i-xDrive-68', '#modalMercedes-Benz-GLS-450-69',
-        '#modalRange-Rover-Sport-71', '#modalMercedes-Benz-S450-72', '#modalAudi-A6-allroad-73', '#modalAudi-Q7-45-TDI-74', '#modalPorsche-Cayenne-75', '#modalVolkswagen-Touareg-77',
-        '#modalVolvo-XC90-B5-Diesel-76'];
+        '#modalMercedes-Benz-S450-72', '#modalAudi-A6-allroad-73', '#modalAudi-Q7-45-TDI-74', '#modalPorsche-Cayenne-75', '#modalVolkswagen-Touareg-77',
+        '#modalVolvo-XC90-B5-Diesel-76', '#modalAudi-A8-60-TFSIe-78', '#modalBMW-X6-xDrive40i-79', '#modalRange-Rover-Sport-80'];
 
     modalIds.forEach(function (modalId) {
         if (window.location.href.indexOf(modalId) !== -1) {
@@ -329,12 +330,8 @@ const modals = [
     'modalRange_Rover_Velar_99', 'modalAudi_Q8_55TFSI_1', 'modalBMW_X7_xDrive40i_3',
     'modalLexus_GX_550_12', 'modalMercedes-Benz_GLC_300_14', 'modalBMW_X6_xDrive40i_17',
     'modalToyota_LC_250_20', 'modalFord-F-150-Raptor-V8-29',
-    'modalMercedes-Benz-AMG-GLE53-Coupe-44',
-    'modalBMW-X5M-Competition-48',
-    'modalBMW-X6-xDrive40i-72',
-    'modalRange-Rover-Sport-91',
+    'modalMercedes-Benz-AMG-GLE53-Coupe-44', 'modalBMW-X5M-Competition-48', 'modalRange-Rover-Sport-91',
     'modalAudi-Q7-02', 'modalMB-AMG-GLE53-03', 'modalBentley-Bentayga-07',
-    'modalAudi-A8-Long-55-TFSI-10',
     'modalAudi-Q7-45-TFSI-15', 'modalBMW-740d-xDrive-16',
     'modalINFINITI-QX80-18', 'modalVolvo-XC90-B5-19',
     'modalPorsche-Panamera-24', 'modalPorsche-Cayenne-25', 'modalBMW-X5-xDrive30d-36',
@@ -344,8 +341,8 @@ const modals = [
     'modalMB-GLE-53-AMG-54', 'modalBMW-520i-57', 'modalJeep-Grand-Cherokee-58',
     'modalJeep-Wrangler-59', 'modalMercedes-Benz-E200-60', 'modalMB-G-class-61', 'modalAudi-Q8-55TFSI-62', 'modalMercedes-Benz-GLE-350-63', 'modalPorsche-Panamera-64',
     'modalMercedes-Benz-CLE200-65', 'modalBentley-Flying-Spur-66', 'modalBMW-740i-xDrive-68', 'modalMercedes-Benz-GLS-450-69',
-    'modalRange-Rover-Sport-71', 'modalMercedes-Benz-S450-72', 'modalAudi-A6-allroad-73', 'modalAudi-Q7-45-TDI-74', 'modalPorsche-Cayenne-75', 'modalVolkswagen-Touareg-77',
-    'modalVolvo-XC90-B5-Diesel-76',];
+    'modalMercedes-Benz-S450-72', 'modalAudi-A6-allroad-73', 'modalAudi-Q7-45-TDI-74', 'modalPorsche-Cayenne-75', 'modalVolkswagen-Touareg-77',
+    'modalVolvo-XC90-B5-Diesel-76', 'modalAudi-A8-60-TFSIe-78', 'modalBMW-X6-xDrive40i-79', 'modalRange-Rover-Sport-80'];
 
 $(document).ready(function () {
 
@@ -388,29 +385,32 @@ function shareCard(cardId) {
 }
 
 // setTimeout 40 sec Modal
+// Функция для показа модального окна
 function showDelayedModal() {
-    const modalElement = new bootstrap.Modal(document.getElementById('callModal'), {
-        backdrop: 'static', // Не позволяет закрывать окно по клику вне его
+    const modalElement = new bootstrap.Modal(document.getElementById('timeoutModal'), {
         keyboard: false     // Не позволяет закрывать окно клавишей Esc
     });
-
-    // Проверяем, открыто ли модальное окно перед показом
-    const isAlreadyOpen = document.getElementById('callModal').classList.contains('show');
-    if (!isAlreadyOpen) {
-        modalElement.show();
-    }
+    modalElement.show();
 }
 
 // Функция запуска таймера после первого клика
 function startTimerAfterFirstClick() {
-    // Запускаем таймер на 10 секунд (10000 миллисекунд)
-    setTimeout(showDelayedModal, 10000);
+    setTimeout(showDelayedModal, 40000);
     // Убираем обработчик, чтобы таймер не перезапускался
-    document.removeEventListener('click', startTimerAfterFirstClick);
+    document.removeEventListener('click', checkFirstClick);
 }
 
-// Устанавливаем обработчик на первый клик
-document.addEventListener('click', startTimerAfterFirstClick);
+// Функция для проверки, был ли клик по нужным элементам
+function checkFirstClick(event) {
+    if (event.target.closest('.card-btn') || event.target.closest('.product-card')) {
+        startTimerAfterFirstClick();
+    }
+}
+
+// Устанавливаем обработчик клика на всю страницу
+document.addEventListener('click', checkFirstClick);
+
+
 
 
 
