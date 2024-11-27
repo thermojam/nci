@@ -468,7 +468,7 @@
     margin: 0 auto;
 }
 
-#callModal, #timeoutModal {
+#callModal {
     z-index: 9999;
 }
 
