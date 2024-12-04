@@ -6,49 +6,33 @@
   <component name="ChangeListManager">
     <list default="true" id="3136dda6-c76a-44a2-8e9f-3d82c283ab70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carfax/BMW-X7-xDrive40i-52.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carfax/Porsche-Cayenne-75.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carfax/Porsche-Panamera-64.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A8-60-TFSIe-78/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A8-60-TFSIe-78/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A8-60-TFSIe-78/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A8-60-TFSIe-78/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A8-60-TFSIe-78/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740d-xDrive-16/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740d-xDrive-16/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740d-xDrive-16/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740d-xDrive-16/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740d-xDrive-16/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X7-xDrive40i-52/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X7-xDrive40i-52/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X7-xDrive40i-52/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X7-xDrive40i-52/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X7-xDrive40i-52/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE400-Coupe-44/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE400-Coupe-44/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE400-Coupe-44/front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE400-Coupe-44/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE400-Coupe-44/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE400-Coupe-44/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S450-72/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S450-72/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S450-72/front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S450-72/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S450-72/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S450-72/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-26/front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-75/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-75/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-75/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-75/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Cayenne-75/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Panamera-64/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Panamera-64/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Panamera-64/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Panamera-64/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Porsche-Panamera-64/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-50/front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carfax/BMW-X6-xDrive40i-79.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carfax/BMW-X7-xDrive40i-83.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A8-55TFSI-81/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A8-55TFSI-81/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A8-55TFSI-81/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A8-55TFSI-81/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-A8-55TFSI-81/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-74/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-74/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-74/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-74/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-74/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X6-xDrive40i-79/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X6-xDrive40i-79/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X6-xDrive40i-79/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X6-xDrive40i-79/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X6-xDrive40i-79/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X7-xDrive40i-83/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X7-xDrive40i-83/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X7-xDrive40i-83/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X7-xDrive40i-83/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/BMW-X7-xDrive40i-83/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-77/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-77/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-77/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-77/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Volkswagen-Touareg-77/side.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/offer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/offer.xml" afterDir="false" />
@@ -77,23 +61,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.15.0",
-    "javascript.nodejs.core.library.typings.version": "18.15.0",
-    "last_opened_file_path": "C:/Users/Susik/Desktop/ncimport/carfax",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Susik/Desktop/ncimport&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Susik\Desktop\ncimport\carfax" />
@@ -158,7 +142,10 @@
       <workItem from="1731927243642" duration="2782000" />
       <workItem from="1732277812954" duration="253000" />
       <workItem from="1732427175071" duration="13000" />
-      <workItem from="1732545116582" duration="11230000" />
+      <workItem from="1732545116582" duration="12760000" />
+      <workItem from="1732772817919" duration="19000" />
+      <workItem from="1733248153033" duration="1426000" />
+      <workItem from="1733317957847" duration="6216000" />
     </task>
     <servers />
   </component>
