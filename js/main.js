@@ -147,7 +147,8 @@ let modalIDs = [
     'modalAudi-A6-allroad-73',
     'modalVolvo-XC90-B5-Diesel-76', 'modalRange-Rover-Sport-80', 'modalBMW-740d-xDrive-82',
     'modalMercedes-Benz-S500-84', 'modalPorsche-Cayenne-85', 'modalPorsche-Panamera-86', 'modalAudi-A8-60TFSIe-87',
-    'modalAudi-Q7-45-TDI-88', 'modalBMW-X6-xDrive30d-89', 'modalBMW-X7-xDrive30d-90', 'modalVolkswagen-Touareg-91'];
+    'modalAudi-Q7-45-TDI-88', 'modalBMW-X6-xDrive30d-89', 'modalBMW-X7-xDrive30d-90', 'modalVolkswagen-Touareg-91', 'modalVolvo-XC90-T8-92', 'modalAudi-Q7-50-TDI-93',
+    'modalJeep-Wrangler-Willys-94'];
 
 // Инициализация обработчика для каждого модального окна
 modalIDs.forEach(function (modalID) {
@@ -295,7 +296,8 @@ $(document).ready(function () {
         '#modalAudi-A6-allroad-73',
         '#modalVolvo-XC90-B5-Diesel-76', '#modalRange-Rover-Sport-80', '#modalBMW-740d-xDrive-82',
         '#modalMercedes-Benz-S500-84', '#modalPorsche-Cayenne-85', '#modalPorsche-Panamera-86', '#modalAudi-A8-60TFSIe-87',
-        '#modalAudi-Q7-45-TDI-88', '#modalBMW-X6-xDrive30d-89', '#modalBMW-X7-xDrive30d-90', '#modalVolkswagen-Touareg-91'];
+        '#modalAudi-Q7-45-TDI-88', '#modalBMW-X6-xDrive30d-89', '#modalBMW-X7-xDrive30d-90', '#modalVolkswagen-Touareg-91', '#modalVolvo-XC90-T8-92', '#modalAudi-Q7-50-TDI-93',
+        '#modalJeep-Wrangler-Willys-94'];
 
     modalIds.forEach(function (modalId) {
         if (window.location.href.indexOf(modalId) !== -1) {
@@ -340,7 +342,8 @@ const modals = [
     'modalAudi-A6-allroad-73',
     'modalVolvo-XC90-B5-Diesel-76', 'modalRange-Rover-Sport-80', 'modalBMW-740d-xDrive-82',
     'modalMercedes-Benz-S500-84', 'modalPorsche-Cayenne-85', 'modalPorsche-Panamera-86', 'modalAudi-A8-60TFSIe-87',
-    'modalAudi-Q7-45-TDI-88', 'modalBMW-X6-xDrive30d-89', 'modalBMW-X7-xDrive30d-90', 'modalVolkswagen-Touareg-91'];
+    'modalAudi-Q7-45-TDI-88', 'modalBMW-X6-xDrive30d-89', 'modalBMW-X7-xDrive30d-90', 'modalVolkswagen-Touareg-91', 'modalVolvo-XC90-T8-92', 'modalAudi-Q7-50-TDI-93',
+    'modalJeep-Wrangler-Willys-94'];
 
 $(document).ready(function () {
 
@@ -381,6 +384,9 @@ function shareCard(cardId) {
             .catch(err => alert('Ошибка при копировании ссылки.'));
     }
 }
+
+
+
 
 
 
