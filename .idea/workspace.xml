@@ -6,14 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="3136dda6-c76a-44a2-8e9f-3d82c283ab70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-45-TDI-74/front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Jeep-Wrangler-59/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Jeep-Wrangler-59/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Jeep-Wrangler-59/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Jeep-Wrangler-59/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Jeep-Wrangler-59/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Jeep-sale/front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Volvo-XC90-B5-Diesel-51/front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carfax/Mercedes-Benz-GLE-350-63.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carfax/Range-Rover-48.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-50-TDI-93/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-50-TDI-93/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-50-TDI-93/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-50-TDI-93/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Audi-Q7-50-TDI-93/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE-350-63/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE-350-63/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE-350-63/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE-350-63/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE-350-63/side.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-S450-72/front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-48/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-48/front-double.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-48/front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-48/in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-48/int.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cars/Range-Rover-48/side.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/offer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/offer.xml" afterDir="false" />
@@ -42,32 +54,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.15.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Susik/Desktop/ncimport&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.15.0",
+    "javascript.nodejs.core.library.typings.version": "18.15.0",
+    "last_opened_file_path": "C:/Users/Susik/Desktop/ncimport",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Susik\Desktop\ncimport\carfax" />
       <recent name="C:\Users\Susik\Desktop\ncimport\images\cars" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Susik\Desktop\ncimport\images\cars\Volvo-XC90-T8-92" />
-      <recent name="C:\Users\Susik\Desktop\ncimport\images\cars" />
       <recent name="C:\Users\Susik\Desktop\ncimport\carfax" />
+      <recent name="C:\Users\Susik\Desktop\ncimport\images\cars" />
+      <recent name="C:\Users\Susik\Desktop\ncimport\images\cars\Volvo-XC90-T8-92" />
       <recent name="C:\Users\Susik\Desktop\ncimport\images\cars\Jeep-sale" />
       <recent name="C:\Users\Susik\Desktop\ncimport\images\cars\BentleyBentayga-sale" />
     </key>
@@ -130,7 +142,15 @@
       <workItem from="1733340853053" duration="532000" />
       <workItem from="1733467071768" duration="202000" />
       <workItem from="1733509320010" duration="4988000" />
-      <workItem from="1733598532492" duration="6446000" />
+      <workItem from="1733598532492" duration="7539000" />
+      <workItem from="1733655179093" duration="410000" />
+      <workItem from="1733756194441" duration="570000" />
+      <workItem from="1733757598540" duration="205000" />
+      <workItem from="1733942542636" duration="665000" />
+      <workItem from="1734010492219" duration="1517000" />
+      <workItem from="1734073337372" duration="23000" />
+      <workItem from="1734241986433" duration="810000" />
+      <workItem from="1734349210002" duration="5726000" />
     </task>
     <servers />
   </component>
