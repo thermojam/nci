@@ -6,29 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3136dda6-c76a-44a2-8e9f-3d82c283ab70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carfax/BMW-740i-xDrive-68.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carfax/Mercedes-Benz-GLS-450-69.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi_Q8_55TFSI_1/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi_Q8_55TFSI_1/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi_Q8_55TFSI_1/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi_Q8_55TFSI_1/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Audi_Q8_55TFSI_1/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW-740i-xDrive-68/front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW_X7_xDrive40i_3/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW_X7_xDrive40i_3/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW_X7_xDrive40i_3/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW_X7_xDrive40i_3/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/BMW_X7_xDrive40i_3/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLE-350-63/front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-69/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-69/front-double.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-69/front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-69/in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-69/int.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/Mercedes-Benz-GLS-450-69/side.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cars/car-sold/front.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/offer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/offer.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +132,8 @@
       <workItem from="1734349210002" duration="7820000" />
       <workItem from="1734360286546" duration="500000" />
       <workItem from="1734932776854" duration="9937000" />
-      <workItem from="1735635933553" duration="6263000" />
+      <workItem from="1735635933553" duration="7513000" />
+      <workItem from="1736362036502" duration="3494000" />
     </task>
     <servers />
   </component>
@@ -164,6 +143,16 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="31b87052-eb78-4b52-bf4b-9d3ee86935dd">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="8221b866-6954-494a-8a76-d2ee29b87f8b">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
