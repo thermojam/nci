@@ -3,7 +3,7 @@
     <cars>
 
         <car>
-            <!--                                                  New  Cadillac Escalade                                                  -->
+            <!--                                                   New  Cadillac Escalade                                                   -->
             <mark_id>Cadillac</mark_id>
             <folder_id>Escalade, V</folder_id>
             <modification_id>3.0 АТ (277 л.с.)</modification_id>
@@ -27,7 +27,7 @@
         </car>
 
         <car>
-            <!--                                                  New  Range Rover                                                  -->
+            <!--                                                   New  Range Rover                                                   -->
             <mark_id>Range Rover</mark_id>
             <folder_id>V</folder_id>
             <modification_id>3.0 АТ (395 л.с.)</modification_id>
@@ -51,31 +51,7 @@
         </car>
 
         <car>
-            <!--                                                  New  BMW X5 xDrive40i                                                 -->
-            <mark_id>BMW</mark_id>
-            <folder_id>X5 xDrive40i, IV (G05/G18) Рестайлинг</folder_id>
-            <modification_id>3.0 АТ (375 л.с.)</modification_id>
-            <url>https://ncimport.ru/#modalBMW_X5_xDrive40i_84</url>
-            <images>
-                <image>https://ncimport.ru/images/cars/BMW_X5_xDrive40i_84/front-double.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW_X5_xDrive40i_84/in.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW_X5_xDrive40i_84/int.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW_X5_xDrive40i_84/side.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW_X5_xDrive40i_84/back.jpg</image>
-            </images>
-            <body_type>внедорожник 5 дв.</body_type>
-            <color>белый</color>
-            <availability>на заказ</availability>
-            <custom>растаможен</custom>
-            <year>2024</year>
-            <price>12295000</price>
-            <currency>RUR</currency>
-            <vin>0000084</vin>
-            <owners_number>Не было владельцев</owners_number>
-        </car>
-
-        <car>
-            <!--                                                  New  Mercedes-Benz GLE 350                                                -->
+            <!--                                                   New  Mercedes-Benz GLE 350                                                 -->
             <mark_id>Mercedes-Benz</mark_id>
             <folder_id>GLE 350, II (V167) Рестайлинг</folder_id>
             <modification_id>2.0 АТ (255 л.с.)</modification_id>
@@ -99,7 +75,7 @@
         </car>
 
         <car>
-            <!--                                                  New  Mercedes-Benz GLS 450                                               -->
+            <!--                                                   New  Mercedes-Benz GLS 450                                                -->
             <mark_id>Mercedes-Benz</mark_id>
             <folder_id>GLS 450, II (X167) Рестайлинг</folder_id>
             <modification_id>3.0 АТ (375 л.с.)</modification_id>
@@ -123,7 +99,7 @@
         </car>
 
         <car>
-            <!--                                             New  Lexus GX 550                                            -->
+            <!--                                              New  Lexus GX 550                                             -->
             <mark_id>Lexus</mark_id>
             <folder_id>GX 550, III</folder_id>
             <modification_id>3.4 АТ (349 л.с.)</modification_id>
@@ -140,38 +116,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>14870000</price>
+            <price>14860000</price>
             <currency>RUR</currency>
             <vin>00000012</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                             New  BMW X6 xDrive40i                                          -->
-            <mark_id>BMW</mark_id>
-            <folder_id>X6 xDrive40i, III (G06) Рестайлинг</folder_id>
-            <modification_id>3.0 АТ (375 л.с.)</modification_id>
-            <url>https://ncimport.ru/#modalBMW_X6_xDrive40i_17</url>
-            <images>
-                <image>https://ncimport.ru/images/cars/BMW_X6_xDrive40i_17/front-double.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW_X6_xDrive40i_17/in.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW_X6_xDrive40i_17/int.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW_X6_xDrive40i_17/side.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW_X6_xDrive40i_17/back.jpg</image>
-            </images>
-            <body_type>внедорожник 5 дв.</body_type>
-            <color>серый</color>
-            <availability>на заказ</availability>
-            <custom>растаможен</custom>
-            <year>2024</year>
-            <price>13600000</price>
-            <currency>RUR</currency>
-            <vin>00000017</vin>
-            <owners_number>Не было владельцев</owners_number>
-        </car>
-
-        <car>
-            <!--                                             New  Toyota LC 250                                          -->
+            <!--                                              New  Toyota LC 250                                           -->
             <mark_id>Toyota</mark_id>
             <folder_id>LC 250, 250 Series</folder_id>
             <modification_id>2.4 АТ (330 л.с.)</modification_id>
@@ -188,14 +140,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>10345000</price>
+            <price>10190000</price>
             <currency>RUR</currency>
             <vin>00000020</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                             New  Ford F-150 Raptor V8                                         -->
+            <!--                                              New  Ford F-150 Raptor V8                                          -->
             <mark_id>Ford</mark_id>
             <folder_id>F-150 Raptor V8, XIV</folder_id>
             <modification_id>5.2 АТ (700 л.с.)</modification_id>
@@ -212,14 +164,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>23105000</price>
+            <price>23000000</price>
             <currency>RUR</currency>
             <vin>00000029</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                             New  Mercedes-Benz AMG GLE53 Coupe                                       -->
+            <!--                                              New  Mercedes-Benz AMG GLE53 Coupe                                        -->
             <mark_id>Mercedes-Benz</mark_id>
             <folder_id>AMG GLE53 Coupe, II (C167) Рестайлинг</folder_id>
             <modification_id>3.0 АТ (429 л.с.)</modification_id>
@@ -243,7 +195,7 @@
         </car>
 
         <car>
-            <!--                                             New  BMW X5M Competition                                      -->
+            <!--                                              New  BMW X5M Competition                                       -->
             <mark_id>BMW</mark_id>
             <folder_id>X5M Competition, III (F95) Рестайлинг</folder_id>
             <modification_id>4.4 АТ (617 л.с.)</modification_id>
@@ -267,7 +219,7 @@
         </car>
 
         <car>
-            <!--                                                  New   Range Rover Sport                                                 -->
+            <!--                                                   New   Range Rover Sport                                                  -->
             <mark_id>Range Rover</mark_id>
             <folder_id>Sport, III</folder_id>
             <modification_id>3.0 АТ (249 л.с.)</modification_id>
@@ -284,14 +236,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>14475000</price>
+            <price>14075000</price>
             <currency>RUR</currency>
             <vin>0000091</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                             New  Audi Q7                                   -->
+            <!--                                              New  Audi Q7                                    -->
             <mark_id>Audi</mark_id>
             <folder_id>Q7, II (4M) Рестайлинг 2</folder_id>
             <modification_id>2.0 АТ (261 л.с.)</modification_id>
@@ -315,7 +267,7 @@
         </car>
 
         <car>
-            <!--                                             New  MB AMG GLE 53                                      -->
+            <!--                                              New  MB AMG GLE 53                                       -->
             <mark_id>Mercedes-Benz</mark_id>
             <folder_id>AMG GLE53, II (V167) Рестайлинг</folder_id>
             <modification_id>3.0 АТ (429 л.с.)</modification_id>
@@ -339,7 +291,7 @@
         </car>
 
         <car>
-            <!--                                             New  INFINITI QX80                                     -->
+            <!--                                              New  INFINITI QX80                                      -->
             <mark_id>INFINITI</mark_id>
             <folder_id>QX80, II</folder_id>
             <modification_id>3.5 АТ (450 л.с.)</modification_id>
@@ -363,7 +315,7 @@
         </car>
 
         <car>
-            <!--                                            New  Porsche Panamera                                 -->
+            <!--                                             New  Porsche Panamera                                  -->
             <mark_id>Porsche</mark_id>
             <folder_id>Panamera, III</folder_id>
             <modification_id>2.9 АТ (348 л.с.)</modification_id>
@@ -387,7 +339,7 @@
         </car>
 
         <car>
-            <!--                                            New  Porsche Cayenne                                -->
+            <!--                                             New  Porsche Cayenne                                 -->
             <mark_id>Porsche</mark_id>
             <folder_id>Cayenne, III Рестайлинг</folder_id>
             <modification_id>3.0 АТ (348 л.с.)</modification_id>
@@ -411,7 +363,7 @@
         </car>
 
         <car>
-            <!--                                             New  BMW 520i                                      -->
+            <!--                                              New  BMW 520i                                       -->
             <mark_id>BMW</mark_id>
             <folder_id>520i, VIII (G60/G61/G68)</folder_id>
             <modification_id>2.0 АТ (190 л.с.)</modification_id>
@@ -428,14 +380,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>7345000</price>
+            <price>7270000</price>
             <currency>RUR</currency>
             <vin>000000157</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                             New  Jeep Grand Cherokee                                      -->
+            <!--                                              New  Jeep Grand Cherokee                                       -->
             <mark_id>Jeep</mark_id>
             <folder_id>Grand Cherokee, V (WL)</folder_id>
             <modification_id>2.0 АТ (375 л.с.)</modification_id>
@@ -459,7 +411,7 @@
         </car>
 
         <car>
-            <!--                                             New  Mercedes-Benz E200                                     -->
+            <!--                                              New  Mercedes-Benz E200                                      -->
             <mark_id>Mercedes-Benz</mark_id>
             <folder_id>E200, VI (W214, S214)</folder_id>
             <modification_id>2.0 АТ (227 л.с.)</modification_id>
@@ -476,38 +428,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>8700000</price>
+            <price>8615000</price>
             <currency>RUR</currency>
             <vin>0000000160</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                             New  Mercedes-Benz G-class                                     -->
-            <mark_id>Mercedes-Benz</mark_id>
-            <folder_id>G-class, III (W465) Рестайлинг</folder_id>
-            <modification_id>3.0 АТ (443 л.с.)</modification_id>
-            <url>https://ncimport.ru/#modalMB-G-class-61</url>
-            <images>
-                <image>https://ncimport.ru/images/cars/MB-G-class-61/front-double.jpg</image>
-                <image>https://ncimport.ru/images/cars/MB-G-class-61/in.jpg</image>
-                <image>https://ncimport.ru/images/cars/MB-G-class-61/int.jpg</image>
-                <image>https://ncimport.ru/images/cars/MB-G-class-61/side.jpg</image>
-                <image>https://ncimport.ru/images/cars/MB-G-class-61/back.jpg</image>
-            </images>
-            <body_type>внедорожник 5 дв.</body_type>
-            <color>серый</color>
-            <availability>на заказ</availability>
-            <custom>растаможен</custom>
-            <year>2024</year>
-            <price>24920000</price>
-            <currency>RUR</currency>
-            <vin>0000000161</vin>
-            <owners_number>Не было владельцев</owners_number>
-        </car>
-
-        <car>
-            <!--                                             New  Mercedes-Benz CLE200                                     -->
+            <!--                                              New  Mercedes-Benz CLE200                                      -->
             <mark_id>Mercedes-Benz</mark_id>
             <folder_id>CLE200, I</folder_id>
             <modification_id>2.0 АТ (204 л.с.)</modification_id>
@@ -524,14 +452,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>9585000</price>
+            <price>9620000</price>
             <currency>RUR</currency>
             <vin>0000000165</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                             New   Jeep Wrangler Willys                                    -->
+            <!--                                              New   Jeep Wrangler Willys                                     -->
             <mark_id>Jeep</mark_id>
             <folder_id>Wrangler Willys, IV (JL)</folder_id>
             <modification_id>2.0 АТ (375 л.с.)</modification_id>
@@ -555,7 +483,7 @@
         </car>
 
         <car>
-            <!--                                             New   Volvo XC90 T8                                   -->
+            <!--                                              New   Volvo XC90 T8                                    -->
             <mark_id>Volvo</mark_id>
             <folder_id>XC90 T8, II Рестайлинг 2</folder_id>
             <modification_id>2.0 АТ (455 л.с.)</modification_id>
@@ -572,14 +500,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>11480000</price>
+            <price>11365000</price>
             <currency>RUR</currency>
             <vin>000000101</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                             New  Audi Q8 55TFSI                                  -->
+            <!--                                              New  Audi Q8 55TFSI                                   -->
             <mark_id>Audi</mark_id>
             <folder_id>Q8 55TFSI, I (4M) Рестайлинг</folder_id>
             <modification_id>3.0 АТ (340 л.с.)</modification_id>
@@ -596,14 +524,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>12700000</price>
+            <price>12575000</price>
             <currency>RUR</currency>
             <vin>000000105</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                             BMW X7 xDrive40i                                      -->
+            <!--                                              BMW X7 xDrive40i                                       -->
             <mark_id>BMW</mark_id>
             <folder_id>X7 xDrive40i, I (G07) Рестайлинг</folder_id>
             <modification_id>3.0 АТ (381 л.с.)</modification_id>
@@ -620,14 +548,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>14095000</price>
+            <price>13955000</price>
             <currency>RUR</currency>
             <vin>000000106</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                             New  Mercedes-Benz GLC300                                     -->
+            <!--                                              New  Mercedes-Benz GLC300                                      -->
             <mark_id>Mercedes-Benz</mark_id>
             <folder_id>GLC300, II (X254)</folder_id>
             <modification_id>2.0 АТ (281 л.с.)</modification_id>
@@ -644,14 +572,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>8465000</price>
+            <price>8380000</price>
             <currency>RUR</currency>
             <vin>0000000107</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                           New  Bentley Flying Spur                                   -->
+            <!--                                            New  Bentley Flying Spur                                    -->
             <mark_id>Bentley</mark_id>
             <folder_id>Flying Spur, III</folder_id>
             <modification_id>2.9 АТ (544 л.с.)</modification_id>
@@ -668,14 +596,14 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>32825000</price>
+            <price>31260000</price>
             <currency>RUR</currency>
             <vin>0000000111</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
         <car>
-            <!--                                           New  Range Rover Velar                                          -->
+            <!--                                            New  Range Rover Velar                                           -->
             <mark_id>Range Rover</mark_id>
             <folder_id>Velar, I Рестайлинг</folder_id>
             <modification_id>2.0 АТ (250 л.с.)</modification_id>
@@ -692,9 +620,81 @@
             <availability>на заказ</availability>
             <custom>растаможен</custom>
             <year>2024</year>
-            <price>9460000</price>
+            <price>9365000</price>
             <currency>RUR</currency>
             <vin>00000112</vin>
+            <owners_number>Не было владельцев</owners_number>
+        </car>
+
+        <car>
+            <!--                                              NEW BMW X5 xDrive30d                                       -->
+            <mark_id>BMW</mark_id>
+            <folder_id>X5 xDrive30d, IV (G05/G18) Рестайлинг</folder_id>
+            <modification_id>3.0 АТ (298 л.с.)</modification_id>
+            <url>https://ncimport.ru/#modalBMW-X5-xDrive30d-13</url>
+            <images>
+                <image>https://ncimport.ru/images/cars/BMW-X5-xDrive30d-13/front-double.jpg</image>
+                <image>https://ncimport.ru/images/cars/BMW-X5-xDrive30d-13/in.jpg</image>
+                <image>https://ncimport.ru/images/cars/BMW-X5-xDrive30d-13/int.jpg</image>
+                <image>https://ncimport.ru/images/cars/BMW-X5-xDrive30d-13/side.jpg</image>
+                <image>https://ncimport.ru/images/cars/BMW-X5-xDrive30d-13/back.jpg</image>
+            </images>
+            <body_type>внедорожник 5 дв.</body_type>
+            <color>белый</color>
+            <availability>на заказ</availability>
+            <custom>растаможен</custom>
+            <year>2024</year>
+            <price>10370000</price>
+            <currency>RUR</currency>
+            <vin>000000113</vin>
+            <owners_number>Не было владельцев</owners_number>
+        </car>
+
+        <car>
+            <!--                                              NEW BMW X6 xDrive30d                                       -->
+            <mark_id>BMW</mark_id>
+            <folder_id>X6 xDrive30d, III (G06) Рестайлинг</folder_id>
+            <modification_id>3.0 АТ (286 л.с.)</modification_id>
+            <url>https://ncimport.ru/#modalBMW-X6-xDrive30d-14</url>
+            <images>
+                <image>https://ncimport.ru/images/cars/BMW-X6-xDrive30d-14/front-double.jpg</image>
+                <image>https://ncimport.ru/images/cars/BMW-X6-xDrive30d-14/in.jpg</image>
+                <image>https://ncimport.ru/images/cars/BMW-X6-xDrive30d-14/int.jpg</image>
+                <image>https://ncimport.ru/images/cars/BMW-X6-xDrive30d-14/side.jpg</image>
+                <image>https://ncimport.ru/images/cars/BMW-X6-xDrive30d-14/back.jpg</image>
+            </images>
+            <body_type>внедорожник 5 дв.</body_type>
+            <color>белый</color>
+            <availability>на заказ</availability>
+            <custom>растаможен</custom>
+            <year>2024</year>
+            <price>13120000</price>
+            <currency>RUR</currency>
+            <vin>000000114</vin>
+            <owners_number>Не было владельцев</owners_number>
+        </car>
+
+        <car>
+            <!--                                              New  Mercedes-Benz G450d                                     -->
+            <mark_id>Mercedes-Benz</mark_id>
+            <folder_id>G450d, III (W465) Рестайлинг</folder_id>
+            <modification_id>3.0 АТ (367 л.с.)</modification_id>
+            <url>https://ncimport.ru/#modalMercedes-Benz-G450d-16</url>
+            <images>
+                <image>https://ncimport.ru/images/cars/Mercedes-Benz-G450d-16/front-double.jpg</image>
+                <image>https://ncimport.ru/images/cars/Mercedes-Benz-G450d-16/in.jpg</image>
+                <image>https://ncimport.ru/images/cars/Mercedes-Benz-G450d-16/int.jpg</image>
+                <image>https://ncimport.ru/images/cars/Mercedes-Benz-G450d-16/side.jpg</image>
+                <image>https://ncimport.ru/images/cars/Mercedes-Benz-G450d-16/back.jpg</image>
+            </images>
+            <body_type>внедорожник 5 дв.</body_type>
+            <color>черный</color>
+            <availability>на заказ</availability>
+            <custom>растаможен</custom>
+            <year>2024</year>
+            <price>22575000</price>
+            <currency>RUR</currency>
+            <vin>0000000116</vin>
             <owners_number>Не было владельцев</owners_number>
         </car>
 
