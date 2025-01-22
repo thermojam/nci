@@ -650,54 +650,6 @@
             <owners_number>Не было владельцев</owners_number>
         </car>
 
-        <car>
-            <!--                                                New  Audi Q7 50TDI                                     -->
-            <mark_id>Audi</mark_id>
-            <folder_id>Q7 50TDI,  II (4M) Рестайлинг 2</folder_id>
-            <modification_id>3.0 АТ (286 л.с.)</modification_id>
-            <url>https://ncimport.ru/#modalAudi-Q7-50TDI-18</url>
-            <images>
-                <image>https://ncimport.ru/images/cars/Audi-Q7-50TDI-18/front-double.jpg</image>
-                <image>https://ncimport.ru/images/cars/Audi-Q7-50TDI-18/in.jpg</image>
-                <image>https://ncimport.ru/images/cars/Audi-Q7-50TDI-18/int.jpg</image>
-                <image>https://ncimport.ru/images/cars/Audi-Q7-50TDI-18/side.jpg</image>
-                <image>https://ncimport.ru/images/cars/Audi-Q7-50TDI-18/back.jpg</image>
-            </images>
-            <body_type>внедорожник 5 дв.</body_type>
-            <color>черный</color>
-            <availability>на заказ</availability>
-            <custom>растаможен</custom>
-            <year>2024</year>
-            <price>12165000</price>
-            <currency>RUR</currency>
-            <vin>000000118</vin>
-            <owners_number>Не было владельцев</owners_number>
-        </car>
-
-        <car>
-            <!--                                                NEW BMW X5M Competition                                         -->
-            <mark_id>BMW</mark_id>
-            <folder_id>X5M Competition, III (F95) Рестайлинг</folder_id>
-            <modification_id>4.4 АТ (625 л.с.)</modification_id>
-            <url>https://ncimport.ru/#modalBMW-X5M-Competition-22</url>
-            <images>
-                <image>https://ncimport.ru/images/cars/BMW-X5M-Competition-22/front-double.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW-X5M-Competition-22/in.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW-X5M-Competition-22/int.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW-X5M-Competition-22/side.jpg</image>
-                <image>https://ncimport.ru/images/cars/BMW-X5M-Competition-22/back.jpg</image>
-            </images>
-            <body_type>внедорожник 5 дв.</body_type>
-            <color>черный</color>
-            <availability>на заказ</availability>
-            <custom>растаможен</custom>
-            <year>2024</year>
-            <price>23170000</price>
-            <currency>RUR</currency>
-            <vin>000000122</vin>
-            <owners_number>Не было владельцев</owners_number>
-        </car>
-
     </cars>
 
 </data>
