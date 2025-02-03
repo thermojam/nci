@@ -332,10 +332,10 @@
 
 .back-catalog:hover {
     text-decoration: underline;
-    text-decoration-color: dodgerblue; /* change the color of the underline */
-    text-decoration-thickness: 1.5px; /* change the thickness of the underline */
-    text-underline-offset: 0.3em; /* set the bottom padding for the underline */
-    text-decoration-style: solid; /* change the style of the underline (solid, dotted, dashed, etc.) */
+    text-decoration-color: dodgerblue;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.3em;
+    text-decoration-style: solid;
 }
 
 .fax-btn, .order-btn {
