@@ -13,28 +13,34 @@ window.addEventListener("load", function () {
 });
 
 // fUNCTION MASK
-function setupInputValidation(inputId, validationType, mask) {
-    const inputElement = document.getElementById(inputId)
+function setupInputValidation(inputSelector, validationType, mask) {
+    const inputElements = document.querySelectorAll(inputSelector)
 
-    if (mask) {
-        $(inputElement).mask(mask);
-    }
+    inputElements.forEach(inputElement => {
+        if (!inputElement)
+            return
 
-    inputElement.addEventListener('input', function () {
-        if (validationType === 'text') {
-            this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё\s]/g, '')
-        } else if (validationType === 'phone') {
-            this.value = this.value.replace(/[^0-9+]/g, '')
+        if (mask) {
+            $(inputElement).mask(mask)
         }
+
+        inputElement.addEventListener('input', function () {
+            if (validationType === 'text') {
+                this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё\s]/g, '')
+            } else if (validationType === 'phone') {
+                this.value = this.value.replace(/[^0-9+]/g, '')
+            }
+        })
     })
 }
 
-setupInputValidation('name_call', 'text')
-setupInputValidation('mobile_call', 'phone', '+7 (999) 999 99 99')
-setupInputValidation('name', 'text')
-setupInputValidation('mobile_tel', 'phone')
-setupInputValidation('user_name', 'text')
-setupInputValidation('mobile_phone', 'phone')
+setupInputValidation('#name_call', 'text')
+setupInputValidation('#mobile_call', 'phone', '+7 (999) 999 99 99')
+setupInputValidation('#name', 'text')
+setupInputValidation('#mobile_tel', 'phone', '+7 (999) 999 99 99')
+setupInputValidation('#user_name', 'text')
+setupInputValidation('#mobile_phone', 'phone', '+7 (999) 999 99 99')
+
 
 
 // NAV-LINKS-SHOW
