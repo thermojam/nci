@@ -262,23 +262,54 @@ $(document).ready(function () {
     });
 });
 
-
+// MODAL URL
 $(document).ready(function () {
-    const modals = $('[id^=modal]');
+    const modals = $('[id^="modal"]');
 
+    // === Обработка открытия модалки ===
     modals.on('show.bs.modal', function () {
-        history.pushState(null, null, `?modal=${this.id}`);
+        const modalId = this.id;
+        const currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.set('modal', modalId);
+        history.pushState(null, '', currentUrl.toString());
     });
 
-    modals.on('hide.bs.modal', () => history.pushState(null, null, window.location.pathname));
+    // === Обработка закрытия модалки ===
+    modals.on('hidden.bs.modal', function () {
+        const cleanUrl = window.location.origin + window.location.pathname;
+        history.replaceState(null, '', cleanUrl);
+    });
 
-    const modalId = new URLSearchParams(window.location.search).get('modal');
-    if (modalId && document.getElementById(modalId)) {
-        const modal = new bootstrap.Modal(document.getElementById(modalId));
-        modal.show();
+    // === Проверка и открытие модалки из URL ===
+    const searchParams = new URLSearchParams(window.location.search);
+    const modalIdFromUrl = searchParams.get('modal');
+    if (modalIdFromUrl) {
+        const modalEl = document.getElementById(modalIdFromUrl);
+        if (modalEl) {
+            setTimeout(() => {
+                const modalInstance = new bootstrap.Modal(modalEl);
+                modalInstance.show();
+            }, 100);
+        }
     }
-});
 
+    // === Обработка кнопки "назад" в браузере ===
+    window.addEventListener('popstate', function () {
+        const modalId = new URLSearchParams(window.location.search).get('modal');
+
+        modals.each(function () {
+            bootstrap.Modal.getInstance(this)?.hide();
+        });
+
+        if (modalId) {
+            const modalEl = document.getElementById(modalId);
+            if (modalEl) {
+                const modalInstance = new bootstrap.Modal(modalEl);
+                modalInstance.show();
+            }
+        }
+    });
+});
 
 // FUNCTION SHARE CARD
 function shareCard(cardId) {
