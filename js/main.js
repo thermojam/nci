@@ -239,77 +239,72 @@ let swiper6 = new Swiper("#swiper6", {
     },
 });
 
-//MODAL URL + BACK CATALOG
-$(document).ready(function () {
-    const $modals = $('[id^="modal"]');
-
+// MODAL-URL + BACK-CATALOG
+window.addEventListener('load', function () {
+    const modals = document.querySelectorAll('[id^="modal"]');
     const urlParams = new URLSearchParams(window.location.search);
-    const modalId = urlParams.get('modal'); // Получаем параметр "modal" из URL
+    const modalId = urlParams.get('modal');
+
+    function closeAllModals() {
+        modals.forEach((modal) => {
+            const instance = bootstrap.Modal.getInstance(modal);
+            if (instance) {
+                instance.hide();
+            }
+        });
+    }
+
+    function openModalById(id) {
+        const modalEl = document.getElementById(id);
+        if (!modalEl) return;
+
+        const instance = bootstrap.Modal.getOrCreateInstance(modalEl);
+        instance.show();
+    }
 
     if (modalId) {
-        const $targetModal = $(`#${modalId}`);
-        if ($targetModal.length) {
-            $targetModal.modal('show');
-        }
+        openModalById(modalId);
     }
 
-    $('.back-catalog').on('click', function () {
-        $modals.modal('hide');
-
-        $('html, body').animate({
-            scrollTop: $('#catalog').offset().top
-        }, 'slow');
-    });
-});
-
-// MODAL URL
-$(document).ready(function () {
-    const modals = $('[id^="modal"]');
-
-    // === Обработка открытия модалки ===
-    modals.on('show.bs.modal', function () {
-        const modalId = this.id;
-        const currentUrl = new URL(window.location.href);
-        currentUrl.searchParams.set('modal', modalId);
-        history.pushState(null, '', currentUrl.toString());
-    });
-
-    // === Обработка закрытия модалки ===
-    modals.on('hidden.bs.modal', function () {
-        const cleanUrl = window.location.origin + window.location.pathname;
-        history.replaceState(null, '', cleanUrl);
-    });
-
-    // === Проверка и открытие модалки из URL ===
-    const searchParams = new URLSearchParams(window.location.search);
-    const modalIdFromUrl = searchParams.get('modal');
-    if (modalIdFromUrl) {
-        const modalEl = document.getElementById(modalIdFromUrl);
-        if (modalEl) {
-            setTimeout(() => {
-                const modalInstance = new bootstrap.Modal(modalEl);
-                modalInstance.show();
-            }, 100);
-        }
-    }
-
-    // === Обработка кнопки "назад" в браузере ===
-    window.addEventListener('popstate', function () {
-        const modalId = new URLSearchParams(window.location.search).get('modal');
-
-        modals.each(function () {
-            bootstrap.Modal.getInstance(this)?.hide();
+    modals.forEach((modal) => {
+        modal.addEventListener('show.bs.modal', function () {
+            const id = this.id;
+            const url = new URL(window.location.href);
+            url.searchParams.set('modal', id);
+            history.pushState(null, '', url);
         });
 
-        if (modalId) {
-            const modalEl = document.getElementById(modalId);
-            if (modalEl) {
-                const modalInstance = new bootstrap.Modal(modalEl);
-                modalInstance.show();
+        modal.addEventListener('hidden.bs.modal', function () {
+            const baseUrl = window.location.origin + window.location.pathname;
+            history.replaceState(null, '', baseUrl);
+        });
+    });
+
+    document.querySelectorAll('.back-catalog').forEach((btn) => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            closeAllModals();
+
+            const baseUrl = window.location.origin + window.location.pathname;
+            history.replaceState(null, '', baseUrl);
+
+            const catalog = document.getElementById('catalog');
+            if (catalog) {
+                catalog.scrollIntoView({ behavior: 'smooth' });
             }
+        });
+    });
+
+    window.addEventListener('popstate', function () {
+        const modalParam = new URLSearchParams(window.location.search).get('modal');
+        closeAllModals();
+
+        if (modalParam) {
+            openModalById(modalParam);
         }
     });
 });
+
 
 // FUNCTION SHARE CARD
 function shareCard(cardId) {
